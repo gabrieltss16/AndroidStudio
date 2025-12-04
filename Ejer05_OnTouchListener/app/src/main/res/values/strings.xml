@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ejer05_OnTouchListener</string>
+    <string name="nombre">Nombre:</string>
+    <string name="contrase_a">Contraseña:</string>
+    <string name="nombreHint">Nombre</string>
+    <string name="contrase_aHint">Contraseña</string>
+</resources>
