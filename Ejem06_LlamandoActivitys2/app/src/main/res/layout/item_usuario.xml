@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="user"
+            type="com.example.ejem06_llamandoactivitys.Usuario" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#ADD97A"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_principal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@{user.nombre}"
+                    android:textSize="20dp"
+                    app:layout_constraintBottom_toTopOf="@id/tv_mail"
+                    app:layout_constraintEnd_toEndOf="@id/cl_principal"
+                    app:layout_constraintStart_toStartOf="@id/cl_principal"
+                    app:layout_constraintTop_toTopOf="@id/cl_principal" />
+
+                <TextView
+                    android:id="@+id/tv_mail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@{user.email}"
+                    app:layout_constraintEnd_toStartOf="@id/tv_edad"
+                    app:layout_constraintStart_toStartOf="@id/cl_principal"
+                    app:layout_constraintTop_toBottomOf="@id/tv_nombre" />
+
+                <TextView
+                    android:id="@+id/tv_edad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="@{String.valueOf(user.edad)}"
+                    app:layout_constraintEnd_toEndOf="@id/cl_principal"
+                    app:layout_constraintStart_toEndOf="@id/tv_mail"
+                    app:layout_constraintTop_toBottomOf="@id/tv_nombre" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
