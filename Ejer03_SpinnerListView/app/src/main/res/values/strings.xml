@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ejercicio03_SpinnerListView</string>
+    <string name="Importar">Importe un dato</string>
+    <string name="Borrar">BORRAR\n</string>
+    <string name="Aniadir">AÑADIR</string>
+</resources>
