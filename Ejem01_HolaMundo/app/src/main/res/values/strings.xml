@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Ejem01_HolaMundo</string>
+    <string name="saludo">Hola... mundo app</string>
+    <string name="nombre">Nombre:</string>
+    <string name="saludar">Saludar</string>
+    <string name="edad">Edad</string>
+    <string name="ciudad">Ciudad</string>
+    <array name="ciudades">
+        <item>Madrid</item>
+        <item>Barcelona</item>
+        <item>Valencia</item>
+        <item>Sevilla</item>
+        <item>Zaragoza</item>
+        <item>Málaga</item>
+        <item>Murcia</item>
+        <item>Palma</item>
+        <item>Las Palmas de Gran Canaria</item>
+        <item>Bilbao</item>
+    </array>
+</resources>

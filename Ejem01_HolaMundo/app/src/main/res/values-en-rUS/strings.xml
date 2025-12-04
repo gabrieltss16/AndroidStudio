@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ejem01_HelloWorld</string>
+    <string name="saludo">Hello... world app</string>
+    <string name="nombre">Name:</string>
+    <string name="saludar">Greetings</string>
+    <string name="edad">Age</string>
+    <string name="ciudad">City</string>
+    <array name="ciudades">
+        <item>Madridation</item>
+        <item>Barcelona</item>
+        <item>Valencia</item>
+        <item>Sevilla</item>
+        <item>Zaragoza</item>
+        <item>Málaga</item>
+        <item>Murcia</item>
+        <item>Palma</item>
+        <item>Las Palmas de Gran Canaria</item>
+        <item>Bilbao</item>
+    </array>
+
+</resources>
