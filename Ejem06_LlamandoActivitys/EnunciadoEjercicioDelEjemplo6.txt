@@ -1,0 +1,6 @@
+Primer Activity:
+Tres casillas para poder crear un objeto usuario que enviamos al segundo Activity.
+
+Segundo Activity:
+Recuperamos el objeto Usuario enviado desde el primero y por databinding cumplimentamos las tres casillas del segundo activity.
+Al pulsar el botón de finalizar, pasamos un objeto usuario al primer activity, que se encargará de meter en un RecyclerView todos los datos recibidos desde el segundo.
